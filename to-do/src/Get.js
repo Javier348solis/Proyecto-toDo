@@ -4,7 +4,7 @@
         let datosFetch = await respuesta.json()
         return datosFetch
     }catch(error) {
-    alert("Error")
+    console.log("Error")
     }
 };
 export {getDatos}
